@@ -12,6 +12,7 @@
         body {
             font-family: 'Inter', sans-serif;
         }
+        /* Özel teklif alanı dikkat çekici renklerini koruyor */
          .special-offer {
             background: linear-gradient(45deg, #b91c1c, #7f1d1d);
             text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
@@ -20,10 +21,13 @@
 </head>
 <body class="bg-gray-100 flex items-center justify-center min-h-screen p-4 sm:p-6 lg:p-8">
     
+    <!-- Poster Ana Kapsayıcısı - Beyaz Arka Plan -->
     <div class="bg-white text-gray-800 max-w-4xl w-full mx-auto rounded-2xl shadow-2xl overflow-hidden border border-gray-200">
         
+        <!-- Üst Kısım (Metin Tabanlı Logo Alanı) -->
         <header class="p-8 md:p-12 text-center relative">
             <div class="relative">
+                <!-- Basit Metin Logo: 'E' harfi kırmızı -->
                 <h1 class="text-4xl md:text-6xl font-black tracking-tight text-gray-900 uppercase">
                     NET<span class="text-red-700">E</span>TRADE.COM
                 </h1>
@@ -31,17 +35,21 @@
             </div>
         </header>
 
+        <!-- Ana İçerik -->
         <main class="p-8 md:p-10 bg-white">
             
+            <!-- Giriş ve Açıklama -->
             <section class="mb-10 text-center">
                  <p class="text-lg md:text-xl text-gray-600 leading-relaxed max-w-3xl mx-auto">
                     Netetrade.com, uluslararası bir endüstriyel ticaret ve iş ağı platformudur. Küresel pazarda etkili olmak isteyen üretici ve ihracatçı firmalar için <span class="font-bold text-red-700">dijital dönüşüm çözümleri</span> sunar.
                 </p>
             </section>
 
+            <!-- Temel Özellikler -->
             <section class="mb-10">
                 <h2 class="text-2xl md:text-3xl font-bold text-center mb-8 text-gray-900">Temel <span class="text-red-700">Özellikler</span></h2>
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <!-- Kartlar beyaz temaya uyarlandı -->
                     <div class="bg-gray-50 p-6 rounded-xl border border-gray-200 transition-all duration-300 hover:shadow-xl hover:border-red-500">
                         <div class="flex items-center space-x-4">
                             <svg class="w-8 h-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v8a2 2 0 002 2z"></path></svg>
@@ -63,6 +71,7 @@
                 </div>
             </section>
 
+            <!-- Yapay Zeka Gücü -->
             <section class="mb-10 p-8 bg-gray-900 rounded-2xl">
                 <h2 class="text-2xl md:text-3xl font-bold text-center mb-6 text-white">🎯 Yapay Zeka Destekli <span class="text-red-500">Dijital Güç</span></h2>
                 <ul class="space-y-4 text-lg text-gray-300">
@@ -73,12 +82,14 @@
                 </ul>
             </section>
             
+            <!-- Özel Kampanya -->
             <section class="my-12 p-8 rounded-2xl text-center text-white special-offer transform hover:scale-105 transition-transform duration-300">
                 <h3 class="text-xl font-bold uppercase">Türk Üreticilere Özel Kampanya</h3>
                 <p class="text-4xl md:text-5xl font-black mt-2">50" 4K QLED Google TV</p>
                 <p class="text-3xl font-bold text-yellow-300 mt-1">HEDİYE!</p>
             </section>
             
+             <!-- Neden Netetrade? -->
             <section class="mb-10 text-center">
                  <h2 class="text-2xl md:text-3xl font-bold text-center mb-8 text-gray-900">Neden <span class="text-red-700">Netetrade?</span></h2>
                  <div class="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-12">
@@ -99,6 +110,7 @@
             
         </main>
 
+        <!-- Alt Kısım / CTA -->
         <footer class="p-8 text-center bg-gray-100">
              <p class="text-xl md:text-2xl font-semibold text-gray-800">Siz de bu güçlü ağa katılarak sınırları aşın ve işinizi global seviyeye taşıyın!</p>
              <a href="https://netetrade.com" target="_blank" class="mt-6 inline-block bg-red-700 hover:bg-red-800 text-white font-bold py-4 px-12 rounded-lg text-lg transition-all transform hover:scale-105 shadow-lg">
